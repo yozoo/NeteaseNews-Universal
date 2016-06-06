@@ -2,7 +2,7 @@
 //  CycleModel.h
 //  NetEaseNews
 //
-//  Created by yozoo on 5/16/16.
+//  Created by yozoo on 5/29/16.
 //  Copyright © 2016 yozoo. All rights reserved.
 //
 

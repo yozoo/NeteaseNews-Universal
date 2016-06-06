@@ -2,8 +2,8 @@
 //  IndexModel.m
 //  WuFeng
 //
-//  Created by 黄杰 on 15/12/17.
-//  Copyright © 2015年 黄杰. All rights reserved.
+//  Created by yozoo on 5/29/16.
+//  Copyright © 2016 yozoo. All rights reserved.
 //
 
 #import "ChannelModel.h"

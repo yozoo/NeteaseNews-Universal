@@ -2,8 +2,9 @@
 //  YHManageTool.m
 //  NetEaseNews
 //
-//  Created by yozoo on 5/8/16.
+//  Created by yozoo on 5/29/16.
 //  Copyright © 2016 yozoo. All rights reserved.
+//
 
 #import "YHManageTool.h"
 #import "AFNetworking.h"

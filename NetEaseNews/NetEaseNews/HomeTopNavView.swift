@@ -2,8 +2,8 @@
 //  HomeTopNavView.swift
 //  WuFeng_User
 //
-//  Created by yozoo on 1/13/16.
-//  Copyright © 2016 黄杰. All rights reserved.
+//  Created by yozoo on 5/29/16.
+//  Copyright © 2016 yozoo. All rights reserved.
 //
 
 import UIKit

@@ -2,8 +2,9 @@
 //  YHError.h
 //  NetEaseNews
 //
-//  Created by yozoo on 5/8/16.
+//  Created by yozoo on 5/29/16.
 //  Copyright © 2016 yozoo. All rights reserved.
+//
 //  错误处理类
 
 #import <Foundation/Foundation.h>
