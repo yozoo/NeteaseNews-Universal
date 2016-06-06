@@ -80,7 +80,7 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="gOJ-vk-Ms8" firstAttribute="leading" secondItem="Brh-I0-qRd" secondAttribute="leading" id="Do5-Wa-N7E"/>
                                             <constraint firstItem="Brh-I0-qRd" firstAttribute="top" secondItem="eip-Wx-ALb" secondAttribute="top" id="End-0S-KHS"/>
@@ -143,7 +143,7 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="Hmr-7V-bzF" firstAttribute="top" secondItem="XXY-Zg-5uZ" secondAttribute="bottom" constant="8" id="I5F-Zl-3Du"/>
                                             <constraint firstItem="XXY-Zg-5uZ" firstAttribute="top" secondItem="cIE-vi-DT4" secondAttribute="top" id="QZN-wX-Uvu"/>
@@ -198,7 +198,7 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="xkZ-xj-whv" secondAttribute="bottom" id="3zW-TL-xFD"/>
                                             <constraint firstItem="jyj-ET-eyw" firstAttribute="leading" secondItem="bz5-HY-5Fk" secondAttribute="leading" constant="36" id="8K7-eH-fYM"/>
@@ -270,7 +270,7 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="nNX-n7-Z2f" firstAttribute="width" secondItem="ttl-J1-KKi" secondAttribute="width" id="5Vz-Zf-VkT"/>
                                             <constraint firstItem="nNX-n7-Z2f" firstAttribute="leading" secondItem="ttl-J1-KKi" secondAttribute="leading" id="FZ8-ni-Qh6"/>

@@ -114,8 +114,14 @@ class ViewController: UIViewController {
                 topNavHeight.constant = UIScreen.mainScreen().applicationFrame.size.height - 87
                 topNavY.constant = 87
                 topNavTrailing.constant = applicationW - 66
-                //            topNavView.backgroundColor = UIColor.redColor()
-                //                bigScrollViewX.constant = 67
+                if hasIpadMode == 1{
+                if NSUserDefaults.standardUserDefaults().objectForKey("ipadModeScrollViewTag") != nil{
+                    var offset:CGPoint = self.ipadModeScrollView.contentOffset
+                    let tag = NSUserDefaults.standardUserDefaults().objectForKey("ipadModeScrollViewTag") as! CGFloat
+                    offset.y = self.ipadModeScrollView.bounds.size.height * tag
+                    ipadModeScrollView.setContentOffset(offset, animated: true)
+                }
+                }
                 if lineView != nil{
                     lineView.removeFromSuperview()
                 }
@@ -137,6 +143,7 @@ class ViewController: UIViewController {
                 
                 self.view.bringSubviewToFront(statusBar)
                 if hasIpadMode == 0{
+                    NSUserDefaults.standardUserDefaults().setObject(0, forKey: "ipadModeScrollViewTag")
                     self.addControllerWithIpadMode()
                     setupIpadModeScrollView()
                 }
@@ -162,6 +169,7 @@ class ViewController: UIViewController {
     }
     
     private func addControllerWithIpadMode(){
+        hasIpadMode = 1
         var i: Int = 0
         for  i = 0 ; i < self.channelList.count ; i++ {
             let newsStoryboard = UIStoryboard(name: "News", bundle: nil)
@@ -175,7 +183,7 @@ class ViewController: UIViewController {
     }
     /** 添加子控制器 */
     func addControllerWithDefault(){
-
+        hasDefaultMode = 1
         var i: Int = 0
         for  i = 0 ; i < self.channelList.count ; i++ {
             if applicationW < 600{
@@ -264,7 +272,7 @@ extension ViewController: HomeTopNavViewDelegate{
             offset = self.ipadModeScrollView.contentOffset
             offset.y = self.ipadModeScrollView.bounds.size.height * CGFloat(tag)
             self.ipadModeScrollView.setContentOffset(offset, animated: true)
-
+            NSUserDefaults.standardUserDefaults().setObject(CGFloat(tag), forKey: "ipadModeScrollViewTag")
         }
 //        if UIDevice.currentDevice().userInterfaceIdiom == .Pad{
 //            self.bigScrollView.setContentOffset(offset, animated: false)
