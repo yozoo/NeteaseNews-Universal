@@ -1,0 +1,9 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'NetEaseNews' do
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+pod 'MJRefresh'
+pod 'SDWebImage'
+pod 'YLProgressBar'
+end
